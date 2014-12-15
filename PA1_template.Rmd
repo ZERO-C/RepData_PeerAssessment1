@@ -1,19 +1,16 @@
 ---
-title: "Reproducible Research: Peer Assessment 1"
-author:CCL
-output: 
-  html_document:
-    keep_md: true
+
 ---
 
 ## Loading and preprocessing the data
 
 ```{r}
 getwd()
-setwd("C:/Users/Administrador/Documents")
+setwd("c:/Users/Ronald/Documents")
 activity <- read.csv("activity.csv")
 library(ggplot2)
 library(lattice)
+
 ```
 
 ## What is mean total number of steps taken per day?
